@@ -5,11 +5,29 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Message passing</title>
 </head>
 
-<body>
+<body style="background-color: blueviolet;">
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__container">
+				<section class="message">
+					<div class="message__title">Pass the message</div>
+					<div class="message__input-box input-box">
+						<label for="message-input" class="input-box__label">Enter a message</label>
+						<input id="message-input" class="input-box__input" type="text">
+						<button onclick="getMessage()" class="input-box__button">Submit</button>
+					</div>
+					<div id="message-output" class="message__output-box">OUTPUT</div>
+				</section>
+			</div>
 
+		</main>
+	</div>
+
+	<script src="js/script.js"></script>
 </body>
 
 </html>
